@@ -25,7 +25,9 @@ Hub owns Gateway/ingest/appservice readiness, tokens, homeserver config, and smo
 
 ### Dependencies / blocked by
 
-- ISS-P14-007 production evidence gate (`docs/issues/matrix-synapse-v0/iss-p14-007-production-plan-apply-smoke-evidence.md` and `docs/operations/matrix-production-evidence.md`)
+- **P14 dependency satisfied:** accepted production plan/apply, client/federation smoke, capacity, alarm, backup, and isolated restore evidence is recorded in `docs/evidence/matrix-production/iss-p14-007-production.json`.
+- P15-004 remains blocked until this issue merges with final configuration evidence.
+- P15-005 remains blocked until P15-004 proves production appservice authentication.
 
 ### Target files and surfaces
 
